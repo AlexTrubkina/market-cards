@@ -24,8 +24,9 @@
     &__title {
         margin-bottom: 10px;
         font-weight: 700;
-        font-size: clamp(16px, 3vw, 24px);
+        font-size: clamp(20px, 3vw, 24px);
         color: #000000;
+        height: 50px;
     }
     &__description {
         font-weight: 400;

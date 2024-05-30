@@ -7,6 +7,8 @@
     height: 110px;
     padding-inline: 5%;
     margin-top: -20px;
+    box-shadow: 0px 15px 20px 0px #0000000D;
+    margin-bottom: 77px;
     &__contacts {
         justify-content: space-between;
         display: flex;
@@ -46,6 +48,6 @@
         background-color: #064087;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        padding: 30px 20px;
+        padding: 25px 18px;
     }
 }
