@@ -1,0 +1,24 @@
+.breadcrumbs {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    flex-wrap: wrap;
+    &__link {
+        a {
+            text-decoration: none;
+            color: #575757;
+        }
+        &::after {
+            content: '/';
+            margin-left: 5px;
+        }
+        &:last-child {
+            &::after {
+                content: '';
+            }
+        }
+    }
+}
